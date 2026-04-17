@@ -1,0 +1,5 @@
+<?php
+setcookie("userID", "", time() - 3600);
+
+echo "Cookie 已刪除<br>";
+echo "<a href='login.php'>回登入頁</a>";
